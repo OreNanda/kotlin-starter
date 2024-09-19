@@ -14,4 +14,15 @@ fun main() {
     downTo.forEach {
         println("$it ")
     }
+
+    val tenToOne = 10.downTo(1)
+    if (7 in tenToOne) {
+        println("Value 7 available")
+    }
+    else if (11 !in tenToOne) {
+        println("No value 11 in Range ")
+    }
+
+    val rangeChar = 'A'.rangeTo('F')
+
 }
